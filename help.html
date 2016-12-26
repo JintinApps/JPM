@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>J霧霾指標說明</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        .level1 {
+            background-color: #71b83a;
+            color: #FFF;
+        }
+        .level2 {
+            background-color: #f6ce2d;
+            color: #FFF;
+        }
+        .level3 {
+            background-color: #ff7e01;
+            color: #FFF;
+        }
+        .level4 {
+            background-color: #FE0000;
+            color: #FFF;
+        }
+        .level5 {
+            background-color: #800080;
+            color: #FFF;
+        }
+        .level6 {
+            background-color: #7e0023;
+            color: #FFF;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>指標說明</h3>
+        <p>依照環保署 AQI 標準將各項污染測項分成六級，級距如下。</p>
+        <table class="table table-hover table-striped">
+            <tr>
+                <th></th>
+                <th>AQI</th>
+                <th>PM2.5</th>
+                <th>PM10</th>
+            </tr>
+            <tr>
+                <td class="level1">良好</td>
+                <td>0~50</td>
+                <td>0~15.4</td>
+                <td>0~54</td>
+            </tr>
+            <tr>
+                <td class="level2">普通</td>
+                <td>51~100</td>
+                <td>15.5~35.4</td>
+                <td>55~125</td>
+            </tr>
+            <tr>
+                <td class="level3">對敏感族群不良</td>
+                <td>100~150</td>
+                <td>35.5~54.4</td>
+                <td>126~254</td>
+            </tr>
+            <tr>
+                <td class="level4">對所有族群不良</td>
+                <td>150~200</td>
+                <td>54.5~150.4</td>
+                <td>255~354</td>
+            </tr>
+            <tr>
+                <td class="level5">非常不良</td>
+                <td>200~300</td>
+                <td>150.5~250.4</td>
+                <td>355~424</td>
+            </tr>
+            <tr>
+                <td class="level6">有害</td>
+                <td>300~500</td>
+                <td>250.5~500</td>
+                <td>425~604</td>
+            </tr>
+        </table>
+        <p>:由於環保署目前並沒有對 PM2.5 與 PM10 即時濃度訂定標準，目前採用24小時的濃度級距作為的標準。</p>
+    </div>
+</body>
+
+</html>
