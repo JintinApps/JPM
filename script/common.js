@@ -7,7 +7,10 @@ function getAQI(callback) {
 			callback(list);
 		}
 	};
-	xhttp.open("GET", "http://opendata2.epa.gov.tw/AQI.json", true);
+	xhttp.open("GET",
+		"https://raw.githubusercontent.com/JintinApps/JPM/master/data/AQI.json"
+		// "http://opendata2.epa.gov.tw/AQI.json"
+		, true);
 	xhttp.send();
 }
 
